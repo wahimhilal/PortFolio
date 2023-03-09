@@ -46,6 +46,8 @@ li {
   font-size: 1.5rem;
   font-family: Aclonica, sans-serif;
   text-transform: uppercase;
+  color: #C74128;  
+
 }
 
 a {
@@ -56,6 +58,19 @@ a {
 h2 {
   font-family: Underdog, sans-serif;
   font-size: 4rem;
+  color: #C74128;  
+}
+
+.article h2, .skills {
+  text-shadow: 5px 5px 10px #D2CBA9;
+}
+
+.experience, .portfolio {
+  text-shadow: 5px 5px 5px #33383F;
+}
+
+h3, p {
+  color: #D2CBA9;
 }
 /* En-tête */
 header {
